@@ -104,6 +104,7 @@ export default function Projects() {
           <a
             href="https://www.facebook.com/sarah.gwynn.1"
             target="_blank"
+            rel="noreferrer"
             title="Facebook profile"
           >
             <i className="fab fa-facebook"></i>
@@ -111,6 +112,7 @@ export default function Projects() {
           <a
             href="https://twitter.com/SarahGwynn1"
             target="_blank"
+            rel="noreferrer"
             title="Twitter profile"
           >
             <i className="fab fa-twitter"></i>
@@ -118,6 +120,7 @@ export default function Projects() {
           <a
             href="https://www.instagram.com/sgwynn"
             target="_blank"
+            rel="noreferrer"
             title="Instagram profile"
           >
             <i className="fab fa-instagram"></i>
@@ -128,6 +131,7 @@ export default function Projects() {
           <a
             href="https://github.com/sarahanngwynn/Portfolio-project"
             target="_blank"
+            rel="noreferrer"
           >
             open-sourced
           </a>
