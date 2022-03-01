@@ -1,5 +1,4 @@
 import React from "react";
-import dictionary from "./dictionary.png";
 
 export default function Projects() {
   return (
