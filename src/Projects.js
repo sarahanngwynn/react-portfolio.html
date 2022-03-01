@@ -46,7 +46,7 @@ export default function Projects() {
         </div>
         <div className="col d-none d-lg-block">
           <img
-            src="/images/weather.png"
+            src="src/images/weather.png"
             className="img-fluid"
             alt="Weather project preview"
           />
@@ -55,7 +55,7 @@ export default function Projects() {
       <div className="row">
         <div className="col d-none d-lg-block">
           <img
-            src="/dictionary.png"
+            src="src/images/dictionary.png"
             className="img-fluid"
             alt="Dictionary app preview"
           />
@@ -107,7 +107,7 @@ export default function Projects() {
             rel="noreferrer"
             title="GitHub Profile"
           >
-            <i class="fab fa-github" aria-hidden="true"></i>
+            <i className="fab fa-github" aria-hidden="true"></i>
           </a>
           <a
             href="https://www.instagram.com/sarahanngwynn"
@@ -115,7 +115,7 @@ export default function Projects() {
             rel="noreferrer"
             title="Instagram Profile"
           >
-            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <i className="fab fa-instagram" aria-hidden="true"></i>
           </a>
           <a
             href="https://www.twitter.com/SarahGwynn1"
@@ -123,7 +123,7 @@ export default function Projects() {
             rel="noreferrer"
             title="Twitter Profile"
           >
-            <i class="fab fa-twitter" aria-hidden="true"></i>
+            <i className="fab fa-twitter" aria-hidden="true"></i>
           </a>
         </div>
         <p className="text-center mt-5">
