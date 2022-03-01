@@ -46,7 +46,7 @@ export default function Projects() {
         </div>
         <div className="col d-none d-lg-block">
           <img
-            src="src/images/weather.png"
+            src="/images/weather.png"
             className="img-fluid"
             alt="Weather project preview"
           />
@@ -55,7 +55,7 @@ export default function Projects() {
       <div className="row">
         <div className="col d-none d-lg-block">
           <img
-            src="src/images/dictionary.png"
+            src="/images/dictionary.png"
             className="img-fluid"
             alt="Dictionary app preview"
           />
