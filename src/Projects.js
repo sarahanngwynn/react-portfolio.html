@@ -76,7 +76,7 @@ export default function Projects() {
         </div>
       </div>
       <footer>
-        <div className="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div className="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
           <div>
             <h3>Work Inquiry</h3>
             <p className="text-muted">Let's work together</p>
@@ -85,7 +85,7 @@ export default function Projects() {
             <a
               href="/contact.html"
               className="btn btn-branding mt-3"
-              title="contact Sarah"
+              title="Contact Sarah"
             >
               Contact me
             </a>
@@ -95,43 +95,39 @@ export default function Projects() {
           <a
             href="mailto:sarahann19@gmail.com"
             className="email-link"
-            title="email Sarah"
+            title="Email Sarah"
           >
             sarahann19@gmail.com
           </a>
         </div>
         <div className="social-links d-flex justify-content-center">
           <a
-            href="https://www.github.com/sarahanngwynn"
+            href="https://www.facebook.com/sarah.gwynn.1"
             target="_blank"
-            rel="noreferrer"
-            title="GitHub Profile"
+            title="Facebook profile"
           >
-            <i className="fab fa-github" aria-hidden="true"></i>
+            <i className="fab fa-facebook"></i>
           </a>
           <a
-            href="https://www.instagram.com/sarahanngwynn"
+            href="https://twitter.com/SarahGwynn1"
             target="_blank"
-            rel="noreferrer"
-            title="Instagram Profile"
+            title="Twitter profile"
           >
-            <i className="fab fa-instagram" aria-hidden="true"></i>
+            <i className="fab fa-twitter"></i>
           </a>
           <a
-            href="https://www.twitter.com/SarahGwynn1"
+            href="https://www.instagram.com/sgwynn"
             target="_blank"
-            rel="noreferrer"
-            title="Twitter Profile"
+            title="Instagram profile"
           >
-            <i className="fab fa-twitter" aria-hidden="true"></i>
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
         <p className="text-center mt-5">
-          This website was coded by Sarah Gwynn, and is{" "}
+          ✌️ This project was coded Sarah Gwynn, and it is
           <a
-            href="https://github.com/sarahanngwynn"
+            href="https://github.com/sarahanngwynn/Portfolio-project"
             target="_blank"
-            rel="noreferrer"
           >
             open-sourced
           </a>

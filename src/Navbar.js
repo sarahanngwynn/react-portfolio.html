@@ -3,42 +3,33 @@ import React from "react";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="./">
-            Portfolio
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li>
-                <a className="dropdown-item" href="./about.html">
-                  About
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./projects.html">
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./contact.html">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav className="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          {" "}
+          Sarah's Portfolio{" "}
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Sarah">
+              About
+            </a>
+          </li>
+          <li className="active">
+            <a href="/work.html" title="Sarah's Work">
+              Work
+            </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Sarah">
+              Contact
+            </a>
+          </li>
+        </ul>
       </nav>
     </div>
   );
